@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JavaScript 01</title>
+</head>
+<body>
+    <h1>Atividade de Cadastro de dado de um Professor</h1>
+    <p>nome:<span id="nome"> </span> </p>
+    <p>endereço:<span id="endereco"> </span> </p>
+    <p>Cidade:<span id="Cidade"> </span> </p>
+    <p>UF:<span id="UF"> </span> </p>
+    <p>CEP:<span id="CEP"> </span> </p>
+    <p>Telefone:<span id="Telefone"> </span> </p>
+    <p>CPF:<span id="CPF"> </span> </p>
+    <p>RG:<span id="RG"> </span> </p>
+    <p>data de nascimento:<span id="data_de_nascimento"> </span> </p>
+    <p>grau de escolaridade:<span id="grau_de_escolaridade"> </span> </p>
+    <p>curso leciona:<span id="curso_leciona"> </span> </p>
+
+
+<script>
+    let nome = prompt("Digite o nome do professor.");
+    let endereco = prompt("Digite o endereço do professor");
+    let Cidade = prompt("Digite a cidade do professor");
+    let UF = prompt("Digite a UF do professor");
+    let CEP = prompt("Digite o CEP do professor");
+    let Telefone = prompt("Digite o telefone do professor")
+    let CPF = prompt("Digite o CPF do professor");
+    let RG = prompt("Digite o RG do professor");
+    let data_de_nascimento = prompt("Digite a data de nascimento do professor");
+    let grau_de_escolaridade = prompt("Digite o grau de escolaridade do professor");
+    let curso_leciona = prompt("Digite o curso leciona do professor");
+
+
+
+
+    document.getElementById("nome").innerHTML=nome
+    document.getElementById("endereco").innerHTML=endereco
+    document.getElementById("Cidade").innerHTML=Cidade
+    document.getElementById("UF").innerHTML=UF
+    document.getElementById("CEP").innerHTML=CEP
+    document.getElementById("Telefone").innerHTML=Telefone
+    document.getElementById("CPF").innerHTML=CPF
+    document.getElementById("RG").innerHTML=RG
+    document.getElementById("data_de_nascimento").innerHTML=data_de_nascimento
+    document.getElementById("grau_de_escolaridade").innerHTML=grau_de_escolaridade
+    document.getElementById("curso_leciona").innerHTML=curso_leciona
+</script>
+</body>
+</html>
