@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moedelo 9</title>
+</head>
+<body>
+    <h1>Dinheiro</h1>
+    <p>Euro: 5,21 <span id="euro"> </span> </p>
+    <p>Dólar: 5,04 <span id="dolar"> </span> </p>
+    <p>Dólar para Real: R$ <span id="valor_dolar"> </span> </p>
+    <p>Euro para Real: R$ <span id="valor_euro"> </span> </p>
+
+    <script>
+        let euro = Number (prompt("Digite o valor do Euro"));
+        let dolar = Number (prompt("Digite o valor do Dolar"));
+        let real = Number (1)
+        let valor_euro = Number (dolar * 5,21)
+        let valor_dolar = Number (euro * 5,04)
+
+        document.getElementById("valor_euro").innerHTML=valor_euro;
+        document.getElementById("valor_dolar").innerHTML=valor_dolar;
+
+    </script>
+</body>
+</html>

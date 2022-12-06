@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 4</title>
+</head>
+<body>
+    <h1>Escola SP</h1>
+    <p>Turma: <span id="Turma"> </span> </p>
+    <p>Historia: <span id="Historia"> </span> </p>
+    <p>Geografia: <span id="Geografia"> </span> </p>
+    <p>Sociologia: <span id="Sociologia"> </span> </p>
+    <p>Nome do Aluno: <span id="Nome_do_Aluno"> </span> </p>
+
+    <script>
+        let Turma = prompt("Digite a Turma");
+        let Historia = Number (prompt("Digite a Nota de Historia"));
+        let Geografia = Number (prompt("Digite a Nota de Geografia"));
+        let Sociologia = Number (prompt("Digite a Nota de Sociologia"));
+        let Nome_do_Aluno = prompt("Digite o Nome do Aluno");
+
+        document.getElementById("Turma").innerHTML=Turma;
+        document.getElementById("Historia").innerHTML=Historia;
+        document.getElementById("Geografia").innerHTML=Geografia;
+        document.getElementById("Sociologia").innerHTML=Sociologia;
+        document.getElementById("Nome_do_Aluno").innerHTML=Nome_do_Aluno;
+
+    </script>
+</body>
+</html>

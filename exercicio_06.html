@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo 6</title>
+</head>
+<body>
+    <h1>Vendas</h1>
+    <p>Vendas Mensal: <span id="Vendas_Mensal"> </span> </p>
+    <p>Vendas Anuais: <span id="Vendas_Anuais"> </span> </p>
+    <p>Valor Total: <span id="Valor_Total"> </span> </p>
+
+    <script>
+        let Vendas_Mensal = Number (prompt("Digite a Vendas Mensal"));
+        let Vendas_Anuais = Number (prompt("Digite a Vendas Anuais"));
+        let Valor_Total = ((Vendas_Mensal)*(Vendas_Anuais));
+
+        document.getElementById("Vendas_Mensal").innerHTML=Vendas_Mensal;
+        document.getElementById("Vendas_Anuais").innerHTML=Vendas_Anuais;
+        document.getElementById("Vaalor_Total").innerHTML=Valor_Total;
+
+    </script>
+</body>
+</html>

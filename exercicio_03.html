@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 3</title>
+</head>
+<body>
+    <h1>Notas</h1>
+    <p>Nota 1: <span id="Nota_1"> </span> </p>
+    <p>Nota 2: <span id="Nota_2"> </span> </p> 
+    <p>Nota 3: <span id="Nota_3"> </span> </p>
+    <p>Frequencia: <span id="Frequencia"> </span> </p>
+    
+    <script>
+        let Nota_1 = Number (prompt("Digite a Nota 1"));
+        let Nota_2 = Number (prompt("Digite a Nota 2"));
+        let Nota_3 = Number (prompt("Digite a Nota 3"));
+        let Frequencia = prompt ("Digite a Frequencia");
+
+        document.getElementById("Nota_1").innerHTML=Nota_1;
+        document.getElementById("Nota_2").innerHTML=Nota_2;
+        document.getElementById("Nota_3").innerHTML=Nota_3;
+        document.getElementById("Frequencia").innerHTML=Frequencia;
+    </script>
+</body>
+</html>
